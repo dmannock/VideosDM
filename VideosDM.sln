@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideosDM", "VideosDM\VideosDM.csproj", "{2F155AFB-D37A-4DDE-B62B-0340036E3EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideosDM.TestConsole", "VideosDM.TestConsole\VideosDM.TestConsole.csproj", "{58AF777A-BB40-4BF7-B121-03EE70C330EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideosDM.Core", "VideosDM.Core\VideosDM.Core.csproj", "{9346552C-74A3-4ED0-A9E5-25F0CDD2FFAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F155AFB-D37A-4DDE-B62B-0340036E3EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F155AFB-D37A-4DDE-B62B-0340036E3EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F155AFB-D37A-4DDE-B62B-0340036E3EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F155AFB-D37A-4DDE-B62B-0340036E3EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AF777A-BB40-4BF7-B121-03EE70C330EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AF777A-BB40-4BF7-B121-03EE70C330EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AF777A-BB40-4BF7-B121-03EE70C330EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AF777A-BB40-4BF7-B121-03EE70C330EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9346552C-74A3-4ED0-A9E5-25F0CDD2FFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9346552C-74A3-4ED0-A9E5-25F0CDD2FFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9346552C-74A3-4ED0-A9E5-25F0CDD2FFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9346552C-74A3-4ED0-A9E5-25F0CDD2FFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

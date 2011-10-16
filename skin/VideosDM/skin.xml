@@ -1,0 +1,75 @@
+<Skin>
+	<Fonts>
+		<Font name="Default" color="Black" size="13"/> 
+		<Font name="ButtonText" color="White" size="11.5" style="Bold"/> 
+		<Font name="DefaultReverse" color="White" size="11.5" style="Bold"/> 
+		<Font name="TitleText" color="Yellow" size="11.5" style="Bold"/> 
+		<Font name="DefaultReverseSmall" color="White" size="11" typeFace="Tahoma"/> 
+	</Fonts>
+
+
+  <Element name="SortName" location="2,5" size="30,5" alpha="255" alphaFade="true">
+    <Text text="Sort:" location="0,0" size="70,96" font="Title1Small" borderColor="Border2" outlineWidth="1" align="Left" valign="Center"/>
+    <Text text="@message" location="15,0" size="150,96" font="Title1Small" align="Left" valign="Center"/>
+  </Element>
+
+
+	<Element name="ButtonList" location="0,0" size="50,5" alpha="180">
+		<RoundedRect location="-26,-110" size="126,198" fillColor="Black" borderColor="Transparent" radius="2.5" borderWidth="0"/>
+		
+		<RoundedRect visible="@button1Selected" location="2,4" size="20,74" fillColor="#444444" borderColor="Transparent" radius="0.5" borderWidth="0"/>
+  		<Text text="@button1" name="@button1" location="2,0" size="20,89" font="DefaultReverseSmall" align="Center" valign="Center"/>
+  		<!-- <Text text="@button1" visible="@button1Unselected" location="3,0" size="96,90" font="Unselected" valign="Center"/> -->
+		
+		<RoundedRect visible="@button2Selected" location="23,4" size="20,74" fillColor="#444444" borderColor="Transparent" radius="0.5" borderWidth="0"/>
+  		<Text text="@button2" name="@button2" location="23,0" size="20,89" font="DefaultReverseSmall" align="Center" valign="Center"/>
+
+		<RoundedRect visible="@button3Selected" location="44,4" size="20,74" fillColor="#444444" borderColor="Transparent" radius="0.5" borderWidth="0"/>
+  		<Text text="@button3" name="@button3" location="44,0" size="20,89" font="DefaultReverseSmall" align="Center" valign="Center"/>
+
+    <RoundedRect visible="@button4Selected" location="65,4" size="20,74" fillColor="#444444" borderColor="Transparent" radius="0.5" borderWidth="0"/>
+    <Text text="@button4" name="@button4" location="65,0" size="20,89" font="DefaultReverseSmall" align="Center" valign="Center"/>
+
+	</Element>
+
+
+	<Element name="CoversView" location="0,50" size="100,45" alpha="110" visibleItems="5">
+		<Rect location="0,0" size="100,100" fillColor="Black"/>
+	</Element>
+
+	<Element name="CoversItem" location="0,53" size="22,34" alpha="180" alphaFade="true">
+		<RoundedRect location="2,1" size="96,98" fillColor="White" borderColor="Transparent" radius="1" borderWidth="0"/>
+		<Text text="@name" location="6,78" size="88,20" font="Default" align="Center" valign="Center" wrap="true"/>
+		<Image source="@previewImage" location="10,6" size="80,70" />
+	</Element>
+
+	<Element name="CoversSelectionMetaData" location="0,89" size="100,4" alpha="130">
+		<Rect location="0,0" size="100,100" fillColor="Black" borderColor="Transparent" radius="1" borderWidth="0"/>
+		<Text text="@name" location="0,0" size="100,100" font="DefaultReverse" align="Center" valign="Center"/>
+		<Text text="@positionInfo" location="0,0" size="97,100" font="DefaultReverseSmall" align="Right" valign="Center"/>
+	</Element>
+
+
+	<Element name="ListView" location="0,10" size="95,90" alpha="100" visibleItems="15" rows="15">
+		<Rect location="0,0" size="65,85" fillColor="Black"/>
+	</Element>
+
+  <Element name="ListItemNormal" location="1,12" size="60,4.8" alpha="200" alphaFade="true">
+    <Text text="@name" location="2,0" size="98,100" font="DefaultReverse" align="Left" valign="Center"/>
+  </Element>
+
+  <Element name="ListItemSelected" location="1,12" size="60,4.8" alpha="200" alphaFade="true">
+    <RoundedRect location="1,1" size="98,98" fillColor="Black" borderColor="Transparent" radius="1" borderWidth="0"/>
+    <Text text="@name" location="2,0" size="98,100" font="DefaultReverse" align="Left" valign="Center"/>
+  </Element>
+
+	<Element name="ListPosition" location="85,92" size="13,5" alpha="170" alphaFade="true">
+		<RoundedRect location="2,1" size="96,98" fillColor="Black" borderColor="Transparent" radius="1" borderWidth="0"/>
+		<Text text="@positionInfo" location="5,0" size="88,100" font="DefaultReverse" align="Center" valign="Center"/>
+	</Element>
+
+  <Element name="FileName" location="2,92" size="85,5" alpha="255" alphaFade="true">
+    <Text text="@message" location="0,0" size="120,96" font="DefaultReverse" align="Left" valign="Center"/>
+  </Element>
+
+</Skin>
